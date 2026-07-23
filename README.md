@@ -1,85 +1,206 @@
-# CareFlow — AI-Powered Patient Triage & Diagnostic Allocation Platform
+# 🏥 CareFlow — AI-Powered Patient Triage & Diagnostic Allocation Platform
 
-> Enterprise-grade healthcare operations platform for Apollo Hospitals Group
+> An enterprise-grade healthcare workflow platform that demonstrates AI-powered patient triage, diagnostic allocation, executive analytics, Business Analysis, and Project Management in a single web application.
 
-[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8)](https://tailwindcss.com)
-[![Recharts](https://img.shields.io/badge/Recharts-2.12-ff6900)](https://recharts.org)
-[![License](https://img.shields.io/badge/License-Enterprise-green)](LICENSE)
-
----
-
-## Overview
-
-CareFlow is a production-quality enterprise web application demonstrating AI-powered clinical workflow optimization. It serves as a comprehensive portfolio project covering Business Analysis, Project Management, Product Management, and Healthcare IT domains.
-
-### Key Capabilities
-
-| Module | Description |
-|--------|-------------|
-| 🏥 Patient Management | Registration, vitals, demographics, triage assignment |
-| 🤖 AI Triage Engine | ML-powered risk scoring with explainability |
-| 🔬 Diagnostic Allocation | Intelligent slot scheduling with conflict resolution |
-| 📊 Executive Dashboard | Real-time KPIs, charts, machine utilization |
-| 👨‍⚕️ Doctor Dashboard | Patient queue, history, priority management |
-| 📈 Analytics | Power BI-style operational intelligence |
-| 📋 PMO Dashboard | Sprint board, burndown, milestones, RAID log |
-| 📝 BA Workspace | User stories, BRD, RTM, stakeholder matrix |
-| 🗺️ Process Maps | BPMN-style As-Is / To-Be workflows |
-| ⚠️ Risk Register | Heat map, mitigation tracking, escalation |
-| 🌲 WBS | Expandable work breakdown structure |
-| 📅 Gantt Chart | Timeline with critical path highlighting |
-| 🔔 Notifications | Real-time clinical and system alerts |
-| 📄 Reports | PDF/Excel/CSV export capabilities |
-| ⚙️ Settings | Theme, roles, notifications, system info |
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38BDF8)
+![Recharts](https://img.shields.io/badge/Recharts-2.12-orange)
+![License](https://img.shields.io/badge/License-Portfolio-success)
 
 ---
 
-## Tech Stack
+## 🌐 Live Demo
 
-**Frontend**
-- Next.js 14 (App Router)
-- TypeScript 5.5
-- Tailwind CSS 3.4
-- Recharts 2.12
+**Application:** care-flow-ai-patient-triage.vercel.app
+
+
+---
+
+# 🎥 Demo Video
+
+> Add your GitHub uploaded video here after dragging it into the README editor.
+
+---
+
+# 📸 Screenshots
+
+## Login Screen
+
+<img width="1918" height="935" alt="login" src="https://github.com/user-attachments/assets/2a90058a-d17d-4e8d-b065-c1fba9e1772f" />
+
+
+---
+
+## Executive Dashboard
+
+<img width="1578" height="922" alt="execdashboard 3" src="https://github.com/user-attachments/assets/d2492061-f3b8-4169-9e37-4e85548ab948" />
+<img width="1600" height="927" alt="execdashboard 2" src="https://github.com/user-attachments/assets/274674c5-75fb-49cc-8dd8-b84cf1b85ea0" />
+<img width="1912" height="932" alt="execdashboard 1" src="https://github.com/user-attachments/assets/6af9778a-b34e-4e8f-9a62-580cc0e6152c" />
+
+
+---
+
+## AI Triage
+
+<img width="1918" height="930" alt="triage 3" src="https://github.com/user-attachments/assets/06328da9-ee78-4eb8-b36d-59cc2f159418" />
+<img width="1918" height="928" alt="triage 2" src="https://github.com/user-attachments/assets/0454e77c-e44f-4267-813d-bd562e99db0e" />
+<img width="1908" height="936" alt="triage 1" src="https://github.com/user-attachments/assets/40681dfd-ec6f-4f8d-bc38-ac6bc612c041" />
+
+
+---
+
+## Doctor Dashboard
+
+<img width="1918" height="932" alt="drdashboard" src="https://github.com/user-attachments/assets/1c38189d-ff8d-4445-bbd8-5fa5d597b313" />
+
+
+---
+
+## Reports
+
+<img width="1918" height="933" alt="report" src="https://github.com/user-attachments/assets/6ffa793b-d753-4c24-a577-e353e978daf7" />
+
+---
+
+## Notifications
+
+<img width="1918" height="932" alt="notif" src="https://github.com/user-attachments/assets/02a78b75-519b-47b7-b6bc-582f5b64af70" />
+
+---
+
+# 📖 Overview
+
+CareFlow is a production-quality healthcare workflow platform built to simulate how hospitals can manage patient intake, AI-assisted triage, diagnostics, executive reporting, Business Analysis documentation, and Project Management activities through a single unified dashboard.
+
+The project combines modern frontend technologies with enterprise software design principles to demonstrate a complete healthcare management ecosystem.
+
+---
+
+# ✨ Features
+
+### 🏥 Patient Management
+
+- Patient registration
+- Patient history
+- Vitals management
+- Demographics
+- Priority assignment
+
+### 🤖 AI Triage Engine
+
+- AI-based risk scoring
+- Patient prioritization
+- Explainable predictions
+- Department recommendation
+- Diagnostic recommendation
+
+### 🔬 Diagnostic Allocation
+
+- Diagnostic scheduling
+- Conflict resolution
+- Resource allocation
+- Machine utilization
+
+### 📊 Executive Dashboard
+
+- Hospital KPIs
+- Real-time statistics
+- Interactive charts
+- Operational insights
+- Performance monitoring
+
+### 👨‍⚕️ Doctor Dashboard
+
+- Patient queue
+- Appointment overview
+- Patient history
+- Clinical workflow
+
+### 📈 Analytics
+
+- Operational analytics
+- Executive reporting
+- Healthcare metrics
+- Trend visualization
+
+### 📋 Business Analysis Workspace
+
+- Business Requirement Document (BRD)
+- Functional Requirement Document (FRD)
+- User Stories
+- RTM
+- Stakeholder Matrix
+
+### 📅 Project Management
+
+- Sprint Board
+- Kanban
+- Burndown Chart
+- Risk Register
+- Heat Map
+- WBS
+- Gantt Chart
+
+### 🔔 Additional Modules
+
+- Notification Centre
+- Reports
+- Settings
+- Role Management
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Recharts
+- Zustand
 - Lucide React
-- Zustand (state management)
 
-**Backend** (production extension)
-- Node.js + Express
+### Backend (Architecture)
+
+- Node.js
+- Express.js
 - PostgreSQL
-- JWT authentication
-- REST API (see `/docs/api.md`)
+- JWT Authentication
+- REST APIs
 
 ---
 
-## Getting Started
+# 🚀 Getting Started
 
-### Prerequisites
+## Prerequisites
 
-```bash
-node >= 18.0.0
-npm >= 9.0.0
-```
+- Node.js 18+
+- npm 9+
 
-### Installation
+## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/careflow-health/careflow.git
-cd careflow
+git clone https://github.com/pavnii6/CareFlow-AI-Patient-Triage.git
 
-# Install dependencies
+cd CareFlow-AI-Patient-Triage
+
 npm install
 
-# Start development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open:
 
-### Demo Credentials
+```
+http://localhost:3000
+```
+
+---
+
+# 🔑 Demo Credentials
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -91,126 +212,122 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## Project Structure
+# 📁 Project Structure
 
 ```
-careflow/
-├── app/                          # Next.js App Router
-│   ├── (auth)/login/             # Login page
-│   ├── (dashboard)/              # Protected dashboard routes
-│   │   ├── dashboard/            # Executive dashboard
-│   │   ├── patients/             # Patient management
-│   │   ├── triage/               # AI triage engine
-│   │   ├── diagnostics/          # Diagnostic allocation
-│   │   ├── doctors/              # Doctor dashboard
-│   │   ├── analytics/            # Analytics (Power BI style)
-│   │   ├── pmo/                  # PMO dashboard
-│   │   ├── ba-workspace/         # BA workspace
-│   │   ├── process-map/          # BPMN process maps
-│   │   ├── risk-register/        # Risk register & heat map
-│   │   ├── wbs/                  # Work breakdown structure
-│   │   ├── gantt/                # Gantt chart
-│   │   ├── notifications/        # Notification centre
-│   │   ├── reports/              # Reports & exports
-│   │   └── settings/             # Settings
-│   ├── globals.css               # Global styles & CSS variables
-│   └── layout.tsx                # Root layout
-├── components/
-│   ├── layout/                   # Sidebar, Header
-│   ├── ui/                       # Reusable UI components
-│   └── dashboard/                # Dashboard-specific components
-├── data/                         # Mock data (500+ realistic records)
-│   ├── patients.ts
-│   ├── doctors.ts
-│   ├── analytics.ts
-│   ├── pmo.ts
-│   ├── ba.ts
-│   └── notifications.ts
-├── lib/
-│   ├── utils.ts                  # Utility functions
-│   └── store.ts                  # Zustand global state
-├── types/
-│   └── index.ts                  # TypeScript type definitions
-├── docs/
-│   ├── api.md                    # REST API documentation
-│   ├── schema.sql                # PostgreSQL database schema
-│   ├── architecture.md           # System architecture
-│   └── deployment.md             # Deployment guide
-└── README.md
+.
+├── app
+├── assets
+├── components
+├── data
+├── docs
+├── hooks
+├── lib
+├── public
+├── types
+├── package.json
+├── README.md
 ```
 
 ---
 
-## Business Analysis Artifacts
+# 📚 Business Analysis Artifacts
 
-All BA artifacts are embedded and viewable within the application:
+The application includes embedded Business Analysis documentation:
 
-- **BRD** — 12 sections, ~57 pages (viewable in BA Workspace)
-- **FRD** — Functional requirements mapped to user stories
-- **User Stories** — 20 stories with full acceptance criteria
-- **Stakeholder Matrix** — 10 stakeholders with influence/interest mapping
-- **RTM** — Requirements traced from BRD → FRD → User Story → Test Case
-- **Process Maps** — As-Is (67-min avg) vs To-Be (~27-min avg) workflows
-
----
-
-## Project Management Artifacts
-
-- **WBS** — 6 phases, 30+ work packages with progress tracking
-- **Gantt Chart** — 19 tasks with critical path (June 2024 – September 2024)
-- **Sprint Board** — Kanban with 5 sprints (Sprints 1-3 completed, Sprint 4 active)
-- **Burndown Chart** — Sprint velocity and ideal vs actual tracking
-- **Risk Register** — 8 risks with 5×5 heat map
-- **Milestones** — 7 key delivery milestones
+- Business Requirement Document (BRD)
+- Functional Requirement Document (FRD)
+- User Stories
+- Requirement Traceability Matrix
+- Stakeholder Matrix
+- BPMN Process Maps
 
 ---
 
-## AI Triage Engine
+# 📅 Project Management Artifacts
 
-The simulated ML engine (CareFlow-Triage-v3.2) processes:
+The application demonstrates complete project planning using:
 
-**Inputs:**
-- Vitals (HR, BP, Temp, SpO₂, RR)
-- Patient age
-- Presenting symptoms
+- Work Breakdown Structure (WBS)
+- Sprint Board
+- Kanban
+- Burndown Chart
+- Milestones
+- Gantt Chart
+- RAID Log
+- Risk Register
+- Risk Heat Map
 
-**Outputs:**
-- Triage Level (Critical/High/Medium/Low)
-- Risk Score (0–100)
-- Confidence % 
-- Recommended Department
-- Recommended Diagnostics
+---
+
+# 🤖 AI Triage Engine
+
+The simulated AI engine processes:
+
+### Inputs
+
+- Heart Rate
+- Blood Pressure
+- Temperature
+- SpO₂
+- Respiratory Rate
+- Age
+- Symptoms
+
+### Outputs
+
+- Risk Score
+- Triage Category
+- Department Recommendation
+- Diagnostic Recommendation
 - Estimated Wait Time
-- Feature Contribution Analysis (Explainability)
-
-**Performance (simulated):** 97.2% accuracy · <3 second response time
+- Explainability Metrics
 
 ---
 
-## Deployment
+# 🚀 Deployment
 
-See [docs/deployment.md](docs/deployment.md) for full deployment instructions.
+The project is deployed on **Vercel**.
 
-**Quick Docker Deploy:**
-```bash
-docker build -t careflow .
-docker run -p 3000:3000 careflow
-```
+Live Demo:
 
-**Vercel Deploy:**
-```bash
-npx vercel --prod
-```
+https://YOUR_VERCEL_URL.vercel.app
 
 ---
 
-## Contributing
+# 🔮 Future Enhancements
 
-This is a portfolio project for demonstration purposes. For enterprise licensing, contact the CareFlow Health Technologies team.
+- Real AI model integration
+- Electronic Health Record (EHR) integration
+- Appointment scheduling
+- Doctor availability management
+- Laboratory Information System
+- Authentication using OAuth
+- CI/CD pipeline
+- Docker deployment
+- Cloud database integration
 
 ---
 
-## License
+# 👩‍💻 Author
 
-CareFlow Enterprise Edition — Licensed to Apollo Hospitals Group  
-© 2024 CareFlow Health Technologies Pvt. Ltd.
+**Pavni Srivastava**
+
+B.Tech Computer Science Engineering
+
+GitHub
+
+https://github.com/pavnii6
+
+LinkedIn
+
+www.linkedin.com/in/pavni-srivastava
+
+
+---
+
+# 📄 License
+
+This project is intended for **educational and portfolio purposes**.
+
+© 2026 Pavni Srivastava
